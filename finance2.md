@@ -2,19 +2,29 @@
 C = StN(d1) - Ke^-rt N(d2)
 
 where:
+
 C = call option of price = ?
+
 S = current stock  = $40
+
 k = strike price = $45
+
 r = risk free intrest-rate = 3%/year = 3/100 = 0.03
+
 t = time to maturity = 4months = 4/12 = 1/3
+
 N = a normal distribution = Φ
+
 σ = 40% = 40/100 = 0.4
+
 μ = 7%
 
 solving for d1
 
 d1 = ln St/k + (r + σ^2/2)t
+
      ____________________
+     
       σs √t
 
 d1 = ln (40/45) + (0.03 + 0.4^2/2)1/3
@@ -37,7 +47,9 @@ solving for d2
 d2 = d1 -  σ√t
 
 d2 = -0.3512 - 0.4√0.3333
+
 d2 = -0.3512 - 0.2309
+
 d2 = -0.5821
 
 

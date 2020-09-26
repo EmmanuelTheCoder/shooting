@@ -1,6 +1,6 @@
 ## For Each section.
 
-**Apart from the readme, there are five files here which is assigned contains the answer to each question as follow:**
+**Apart from the readme, there are five files here which contains the answer to each question as follow:**
 
 * **finance1.md:** is the answer to the first question in the finance section.
 
