@@ -1,4 +1,4 @@
-<!-- To use the long division sign, I had to improvise by setting wide spaces once here else the markdown file wont interprete it well. PLEASE BEAR WITH ME. -->
+**To use the long division sign, I had to improvise by setting wide spaces once here else the markdown file wont interprete it well. PLEASE BEAR WITH ME.**
 
 y = √(x+6)^2+25  +  √(x-6)^2 + 121
 

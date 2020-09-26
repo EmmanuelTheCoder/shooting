@@ -1,4 +1,5 @@
 
+**To use the long division sign to solve this question, I had to improvise by setting wide spaces else the markdown file wont interprete it well. PLEASE BEAR WITH ME.**
 
 C = StN(d1) - Ke^-rt N(d2)
 
@@ -22,7 +23,7 @@ N = a normal distribution = Φ
 
 solving for d1
 
-<!-- To use the long division sign, I had to improvise by setting wide spaces else the markdown file wont interprete it well. PLEASE BEAR WITH ME. -->
+
 
 d1 = ln St/k + (r + σ^2/2)t
 
