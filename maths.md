@@ -1,19 +1,18 @@
-<!-- To use the long division sign, I had to improvise by setting wide spaces else the markdown file wont interprete it well. PLEASE BEAR WITH ME. -->
+<!-- To use the long division sign, I had to improvise by setting wide spaces once here else the markdown file wont interprete it well. PLEASE BEAR WITH ME. -->
 
 y = √(x+6)^2+25  +  √(x-6)^2 + 121
 
 
 dy/dx = 1/2 [(x+6^2) + 25]^-1/2 (2(x+6)(1)) + 1/2 [(x-6)^2 + 121]^-1/2  (2(x-6)(1))
 
-dy/dx = x+6       +           x-6
+dy/dx = x+6 / √(x+6)^2 + 25   +   x-6 / √(x-6)^2 + 121
         
-        ____                  ____
-                        
-        √(x+6)^2 + 25       √(x-6)^2 + 121
 
 
 dy/dx = (x+6) √(x-6)^2 +121  + (x-6) √(x+6)^2 + 25
+
         __________________________________________
+
         √[(x+6)^2 + 25] [(x-6)^2 + 121]
 
 
@@ -39,39 +38,31 @@ x^4 - 12x^3 + 157x^2 + 12x^3 + 1884x + 36x^2 - 432x + 5652 = x^4 + 12x^3 + 61x^2
 
 10x^2 + 73x + 144 = 0
 
-x = -b ± √b^2 - 4ac
-     ____________
-         2a
+x = -b ± √b^2 - 4ac / 2a
 
-x = -73 ± √73^2 -4(10)(144) 
-     _____________________ 
-     2(10)
 
-x = -73 ± √5329-5760
-    ________________
-    20
+x = -73 ± √73^2 -4(10)(144) / 2(10) 
 
-x = -73 ± √-431
-    __________
-    20
+
+x = -73 ± √5329-5760 / 20
+
+
+x = -73 ± √-431 / 20
+
 
 
 recall that √-1 = i (complex number)
 
-x = -73 ± √-431
-    ___________
-    20
+x = -73 ± √-431 / 20
 
-x = -73 ± √-1*431
-    ___________
-    20
 
-x = -73 ± √-1 * √431
-    ___________
-    20
+x = -73 ± √-1*431 / 20
 
-x = -73 ± √-431 i
-    ___________
-    20
+
+x = -73 ± √-1 * √431 / 20
+
+
+x = -73 ± √-431 i / 20
+
 
 
