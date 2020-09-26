@@ -1,0 +1,2 @@
+
+The **recursion method** spends a significant amount of time recomputing prior results. That is, in term of speed the recursion algorithm is a lot slower than the iterative algorithm. It is substantially slower so much so that for only medium-sized values of n, recursion may not complete in many years (as the value of nth element increases, recursion becomes slower while interation becomes faster) hence a bad idea for finding the fibonacci of a number.
