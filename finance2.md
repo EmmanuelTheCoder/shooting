@@ -1,4 +1,5 @@
 
+
 C = StN(d1) - Ke^-rt N(d2)
 
 where:
@@ -21,6 +22,8 @@ N = a normal distribution = Φ
 
 solving for d1
 
+<!-- To use the long division sign, I had to improvise by setting wide spaces else the markdown file wont interprete it well. PLEASE BEAR WITH ME. -->
+
 d1 = ln St/k + (r + σ^2/2)t
 
      ____________________
@@ -42,7 +45,7 @@ d1 = ln (0.8889) + (0.03 + 0.08) 0.3333
 d1 = -0.1178 + 0.0367
 
       _______________
-      
+
       0.2309
 
 d1 = -0.3512
