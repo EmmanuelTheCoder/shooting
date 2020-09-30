@@ -1,6 +1,4 @@
 
-**To use the long division sign to solve this question, I had to improvise by setting wide spaces else the markdown file wont interprete it well. PLEASE BEAR WITH ME.**
-
 C = StN(d1) - Ke^-rt N(d2)
 
 where:
@@ -11,7 +9,7 @@ S = current stock  = $40
 
 k = strike price = $45
 
-r = risk free intrest-rate = 3%/year = 3/100 = 0.03
+r = risk free intrest-rate = 3% per year = 3/100 = 0.03
 
 t = time to maturity = 4months = 4/12 = 1/3
 
@@ -25,29 +23,17 @@ solving for d1
 
 
 
-d1 = ln St/k + (r + σ^2/2)t
+d1 = ln St/k + (r + σ^2/2)t / σs √t
 
-     ____________________
 
-      σs √t
 
-d1 = ln (40/45) + (0.03 + 0.4^2/2)1/3
+d1 = ln (40/45) + (0.03 + 0.4^2/2)1/3 / 0.4 √1/3
 
-     ____________________
 
-      0.4 √1/3
+d1 = ln (0.8889) + (0.03 + 0.08) 0.3333 / 0.4 √0.3333
 
-d1 = ln (0.8889) + (0.03 + 0.08) 0.3333
 
-     ____________________
-
-      0.4 √0.3333
-
-d1 = -0.1178 + 0.0367
-
-      _______________
-
-      0.2309
+d1 = -0.1178 + 0.0367 / 0.2309
 
 d1 = -0.3512
 
